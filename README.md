@@ -15,8 +15,8 @@ XCUITests demo to run checkout out tests on iOS sample app
 # Xcode build version and Simulators
 Tests are built and exuted on Xcode 16.4 - iPhone 16 pro max 18.6, iPhone 16 18.6, iPhone 16 - 18.0
 
-To execute tests
-- checkout out git@github.com:ravikunaparaju/TakeHomeTest.git
+## To execute tests
+- checkout out code from `git@github.com:ravikunaparaju/TakeHomeTest.git`
 - Open `My Demo App.xcworkspace` from Xcode
 - Navigate to MyDemoAppUITests -> Tests
 - click on the diamond icon beside the class name to play the tests

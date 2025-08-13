@@ -1,0 +1,185 @@
+{
+  "" : {
+    "const-values" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/My Demo App-master.swiftconstvalues",
+    "dependencies" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/My Demo App-master.d",
+    "diagnostics" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/My Demo App-master.dia",
+    "emit-module-dependencies" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/My Demo App-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/My Demo App-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/My Demo App-master.swiftdeps"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/AppDelegate.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Constants/Constants.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Constants.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Constants/Engine.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Engine.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Engine.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Engine.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Constants/Methods.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Methods.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Methods.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Methods.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Constants/Utils.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Utils.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Utils.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/Utils.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/AboutViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/AboutViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/AboutViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/AboutViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/CatalogViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/CatalogViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/CatalogViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/CatalogViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/CheckoutCompleteViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/CheckoutCompleteViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/CheckoutCompleteViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/CheckoutCompleteViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/DrawingViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/DrawingViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/DrawingViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/DrawingViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/FaceIdViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/FaceIdViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/FaceIdViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/FaceIdViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/GeoLocationViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/GeoLocationViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/GeoLocationViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/GeoLocationViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/LoginViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/LoginViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/LoginViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/LoginViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/MenuViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/MenuViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/MenuViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/MenuViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/MyCartViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/MyCartViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/MyCartViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/MyCartViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/PaymentMethodViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/PaymentMethodViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/PaymentMethodViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/PaymentMethodViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/ProductPageDetailViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ProductPageDetailViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ProductPageDetailViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ProductPageDetailViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/PushNotificationsViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/PushNotificationsViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/PushNotificationsViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/PushNotificationsViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/QRCodeScannerViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/QRCodeScannerViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/QRCodeScannerViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/QRCodeScannerViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/ReportABugDebugViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ReportABugDebugViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ReportABugDebugViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ReportABugDebugViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/ReviewYourOrderViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ReviewYourOrderViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ReviewYourOrderViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ReviewYourOrderViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/ShippingAddressViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ShippingAddressViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ShippingAddressViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ShippingAddressViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/WebViewHandlerViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/WebViewHandlerViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/WebViewHandlerViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/WebViewHandlerViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Controllers/WebViewViewController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/WebViewViewController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/WebViewViewController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/WebViewViewController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/DesignableClasses/ButtonRoundCorner.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ButtonRoundCorner.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ButtonRoundCorner.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ButtonRoundCorner.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/DesignableClasses/TextFieldBorderColor.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/TextFieldBorderColor.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/TextFieldBorderColor.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/TextFieldBorderColor.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/DesignableClasses/ViewRoundCornerAndColour.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewRoundCornerAndColour.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewRoundCornerAndColour.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewRoundCornerAndColour.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/DesignableClasses/ViewShadowAllSide.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowAllSide.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowAllSide.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowAllSide.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/DesignableClasses/ViewShadowBottom.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowBottom.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowBottom.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowBottom.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/DesignableClasses/ViewShadowTop.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowTop.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowTop.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewShadowTop.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/DesignableClasses/ViewTopRoundCorner.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewTopRoundCorner.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewTopRoundCorner.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/ViewTopRoundCorner.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Extensions/RatingController.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/RatingController.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/RatingController.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/RatingController.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Extensions/YPDrawSignatureView.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/YPDrawSignatureView.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/YPDrawSignatureView.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/YPDrawSignatureView.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/SceneDelegate.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/SceneDelegate.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/My Demo App/Utilities/TestFairyWrapper.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/TestFairyWrapper.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/TestFairyWrapper.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/TestFairyWrapper.o"
+  },
+  "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/ravikunaparaju/Allwyn/TakeHomeTest/build/My Demo App.build/Release-iphoneos/My Demo App.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

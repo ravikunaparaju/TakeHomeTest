@@ -48,7 +48,7 @@ class CartScreen {
     }
     
     func navigateToShopping() {
-        guard goShoppingButton.exists else {
+        guard goShoppingButton.waitForExistence(timeout: 1) else {
             return XCTFail("\(goShoppingButton) does not exist on screen")
         }
         goShoppingButton.tap()

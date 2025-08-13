@@ -6,19 +6,10 @@
 //
 
 import XCTest
-
+s
 class CheckoutTests: MyDemoAppTestBase {
-
-    private let bottomNavigationScreen = BottomNavigationScreen(app: XCUIApplication())
-    private let cartScreen = CartScreen(app: XCUIApplication())
-    private let productDetailsScreen = ProductDetailsScreen(app: XCUIApplication())
-    private let productListScreen = ProductListScreen(app: XCUIApplication())
-    private let logintScreen = LoginScreen(app: XCUIApplication())
-    private let shippingAddressScreen = ShippingAddressScreen(app: XCUIApplication())
-    private let paymentmethodScreen = PaymentMethodScreen(app: XCUIApplication())
-    private let reviewOrderScreen = ReviewOrderScreen(app: XCUIApplication())
-    private let checkoutCompleteScreen = CheckoutCompleteScreen(app: XCUIApplication())
     
+    // Verify empty shopping cart
     func testEmptyCartGoShoppingNavigation() {
         bottomNavigationScreen.navigateToCart()
         XCTAssertTrue(cartScreen.isCartEmpty())
@@ -26,14 +17,16 @@ class CheckoutTests: MyDemoAppTestBase {
         XCTAssertTrue(productListScreen.isProductListScreenLoaded())
     }
     
+    // verify total items count correctly displayed in cart screen
     func testAddedProductOfGivenQuantityDisplayedInCart() {
         productListScreen.selectProduct("backpack", "black")
         productDetailsScreen.addProductToCart(100)
         bottomNavigationScreen.navigateToCart()
-        XCTAssertTrue(cartScreen.isTotalSelectedItemsDisplayedInCart(100))
+        XCTAssertTrue(cartScreen.isQuantityAndPriceUpdated(100))
         XCTAssertTrue(cartScreen.isCartCountDisplayed(100))
     }
     
+    // Verify remove product from cart by remove button
     func testRemoveProducsFromCart() {
         addProductToCart(productType: "backpack", color: "black")
         addProductToCart(productType: "t-shirt", color: "black")
@@ -43,6 +36,7 @@ class CheckoutTests: MyDemoAppTestBase {
         XCTAssertTrue(cartScreen.isCartEmpty(), "Cart is not empty")
     }
     
+    // Verify remove product from cart by minus button
     func testRemoveProducsFromCartByMinusButton() {
         addProductToCart(productType: "backpack", color: "black")
         bottomNavigationScreen.navigateToCart()
@@ -50,25 +44,28 @@ class CheckoutTests: MyDemoAppTestBase {
         XCTAssertTrue(cartScreen.isCartEmpty(), "Cart is not empty")
     }
     
+    // Verify product count and price updated in cart
     func testUpdateProductQuantityUpdatesTotalPrice() {
         addProductToCart(productType: "backpack", color: "black")
         bottomNavigationScreen.navigateToCart()
         cartScreen.increaseProductQuantity(10)
-        XCTAssertTrue(cartScreen.isTotalSelectedItemsDisplayedInCart(10))
+        XCTAssertTrue(cartScreen.isQuantityAndPriceUpdated(10), "items count & price not updated")
     }
     
-    // MARK: Failing tests because of defects
+    // MARK: Failing tests because of functional defects
     
+    // Verify multi color product added to cart
     func testMultiColorProductAddedDisplayedInCart() {
         addProductToCart(productType: "backpack", color: "black")
         addProductToCart(productType: "backpack", color: "green")
         bottomNavigationScreen.navigateToCart()
-        XCTAssertTrue(cartScreen.isSelectedProductColorExists("green"))
-        XCTAssertTrue(cartScreen.isTotalSelectedItemsDisplayedInCart(2))
-        XCTAssertTrue(cartScreen.isSelectedProductColorExists("black"))
+        XCTAssertTrue(cartScreen.isSelectedProductColorExists("green"), "green color backpack is not displayed")
+        XCTAssertTrue(cartScreen.isQuantityAndPriceUpdated(2))
+        XCTAssertTrue(cartScreen.isSelectedProductColorExists("black"), "black color backpack is not displayed")
     }
     
-    func testCheckoutCart() {
+    // Verify complete checkout clears cart items
+    func testCompleteCheckout() {
         addProductToCart(productType: "backpack", color: "black")
         bottomNavigationScreen.navigateToCart()
         cartScreen.navigateToCheckout()
@@ -81,9 +78,22 @@ class CheckoutTests: MyDemoAppTestBase {
         XCTAssertTrue(checkoutCompleteScreen.isCartEmpty(), "Cart is not empty")
     }
     
+    
+    // MARK: Private
+    
     private func addProductToCart(productType: String, color: String) {
         productListScreen.selectProduct(productType, color)
         productDetailsScreen.addProductToCart()
         productDetailsScreen.navigateToProducts()
     }
+    
+    private let bottomNavigationScreen = BottomNavigationScreen(app: XCUIApplication())
+    private let cartScreen = CartScreen(app: XCUIApplication())
+    private let productDetailsScreen = ProductDetailsScreen(app: XCUIApplication())
+    private let productListScreen = ProductListScreen(app: XCUIApplication())
+    private let logintScreen = LoginScreen(app: XCUIApplication())
+    private let shippingAddressScreen = ShippingAddressScreen(app: XCUIApplication())
+    private let paymentmethodScreen = PaymentMethodScreen(app: XCUIApplication())
+    private let reviewOrderScreen = ReviewOrderScreen(app: XCUIApplication())
+    private let checkoutCompleteScreen = CheckoutCompleteScreen(app: XCUIApplication())
 }

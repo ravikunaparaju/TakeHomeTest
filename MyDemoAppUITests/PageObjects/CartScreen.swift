@@ -62,8 +62,8 @@ class CartScreen {
         app.staticTexts.matching(NSPredicate(format: "label ==[c] %@", color)).firstMatch.exists
     }
     
-    func isTotalSelectedItemsDisplayedInCart(_ total: Int) -> Bool {
-        app.staticTexts.matching(NSPredicate(format: "label contains[c] %@", "\(total) Items")).firstMatch.exists
+    func isQuantityAndPriceUpdated(_ total: Int) -> Bool {
+         app.staticTexts.matching(NSPredicate(format: "label contains[c] %@", "\(total) Items")).firstMatch.exists && app.staticTexts.matching(NSPredicate(format: "label contains[c] %@", "\(Double(total) * 29.99)")).firstMatch.exists
     }
     
     func removeProductFromCart() {

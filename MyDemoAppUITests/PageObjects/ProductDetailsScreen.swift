@@ -18,7 +18,7 @@ class ProductDetailsScreen {
         app.buttons["AddToCart"]
     }
     
-    private var productPrice: XCUIElement {
+    private var productPriceElement: XCUIElement {
         app.staticTexts["Price"]
     }
     
@@ -49,5 +49,9 @@ class ProductDetailsScreen {
             }
             addToCartButton.tap()
         }
+    }
+    
+    func getProductPrice() -> String {
+        productPriceElement.label
     }
 }

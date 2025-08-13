@@ -14,21 +14,16 @@ class CheckoutTests: MyDemoAppTestBase {
     private let productDetailsScreen = ProductDetailsScreen(app: XCUIApplication())
     private let productListScreen = ProductListScreen(app: XCUIApplication())
     private let logintScreen = LoginScreen(app: XCUIApplication())
+    private let shippingAddressScreen = ShippingAddressScreen(app: XCUIApplication())
+    private let paymentmethodScreen = PaymentMethodScreen(app: XCUIApplication())
+    private let reviewOrderScreen = ReviewOrderScreen(app: XCUIApplication())
+    private let checkoutCompleteScreen = CheckoutCompleteScreen(app: XCUIApplication())
     
     func testEmptyCartGoShoppingNavigation() {
         bottomNavigationScreen.navigateToCart()
         XCTAssertTrue(cartScreen.isCartEmpty())
         cartScreen.navigateToShopping()
         XCTAssertTrue(productListScreen.isProductListScreenLoaded())
-    }
-    
-    func testMultiColorProductAddedDisplayedInCart() {
-        addProductToCart(productType: "backpack", color: "black")
-        addProductToCart(productType: "backpack", color: "green")
-        bottomNavigationScreen.navigateToCart()
-        XCTAssertTrue(cartScreen.isSelectedProductColorExists("green"))
-        XCTAssertTrue(cartScreen.isTotalSelectedItemsDisplayedInCart(2))
-        XCTAssertTrue(cartScreen.isSelectedProductColorExists("black"))
     }
     
     func testAddedProductOfGivenQuantityDisplayedInCart() {
@@ -55,11 +50,22 @@ class CheckoutTests: MyDemoAppTestBase {
         XCTAssertTrue(cartScreen.isCartEmpty(), "Cart is not empty")
     }
     
-    func testUpdateProductQuantity() {
+    func testUpdateProductQuantityUpdatesTotalPrice() {
         addProductToCart(productType: "backpack", color: "black")
         bottomNavigationScreen.navigateToCart()
         cartScreen.increaseProductQuantity(10)
         XCTAssertTrue(cartScreen.isTotalSelectedItemsDisplayedInCart(10))
+    }
+    
+    // MARK: Failing tests because of defects
+    
+    func testMultiColorProductAddedDisplayedInCart() {
+        addProductToCart(productType: "backpack", color: "black")
+        addProductToCart(productType: "backpack", color: "green")
+        bottomNavigationScreen.navigateToCart()
+        XCTAssertTrue(cartScreen.isSelectedProductColorExists("green"))
+        XCTAssertTrue(cartScreen.isTotalSelectedItemsDisplayedInCart(2))
+        XCTAssertTrue(cartScreen.isSelectedProductColorExists("black"))
     }
     
     func testCheckoutCart() {
@@ -67,6 +73,12 @@ class CheckoutTests: MyDemoAppTestBase {
         bottomNavigationScreen.navigateToCart()
         cartScreen.navigateToCheckout()
         XCTAssertTrue(logintScreen.isLoginScreenDisplayed(), "Login screen is not displayed")
+        logintScreen.loginWithBobEmail()
+        shippingAddressScreen.enterShippingAddress("ravi kunaparaju", "12345", "London", "12345", "united kingdom")
+        paymentmethodScreen.enterPaymentMethod("ravi", "2133444421231234", "1232", "123")
+        reviewOrderScreen.placeOrder()
+        XCTAssertTrue(checkoutCompleteScreen.isCheckoutComplete(), "checout complete text is not displayed")
+        XCTAssertTrue(checkoutCompleteScreen.isCartEmpty(), "Cart is not empty")
     }
     
     private func addProductToCart(productType: String, color: String) {

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-s
+
 class CheckoutTests: MyDemoAppTestBase {
     
     // Verify empty shopping cart

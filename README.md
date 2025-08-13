@@ -13,8 +13,15 @@ XCUITests demo to run checkout out tests on iOS sample app
   - Verify proceed to checkout
 
 # Xcode build version and Simulators
-Xcode 16.4 - iPhone 16 pro max 18.6, iPhone 16 18.6, iPhone 16 - 18.0
+Tests are built and exuted on Xcode 16.4 - iPhone 16 pro max 18.6, iPhone 16 18.6, iPhone 16 - 18.0
 
+To execute tests
+- checkout out git@github.com:ravikunaparaju/TakeHomeTest.git
+- Open `My Demo App.xcworkspace` from Xcode
+- Navigate to MyDemoAppUITests -> Tests
+- click on the diamond icon beside the class name to play the tests
+
+Note: `testMultiColorProductAddedDisplayedInCart` will fail to capture defect
 
 https://github.com/user-attachments/assets/3ae94fe9-17b2-4ef7-b38a-b4b645df59c5
 

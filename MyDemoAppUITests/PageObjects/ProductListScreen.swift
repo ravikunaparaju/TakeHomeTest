@@ -6,7 +6,6 @@
 //
 
 import XCTest
-import XCUIAutomation
 
 class ProductListScreen {
     
